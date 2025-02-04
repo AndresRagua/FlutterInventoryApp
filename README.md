@@ -1,16 +1,54 @@
-# gestion_inventario_app
+# 📱 Flutter Inventory App  
 
-A new Flutter project.
+🚀 **Aplicación móvil en Flutter** para la gestión de inventario. Esta app sigue una estructura modular, se conecta a un backend PHP y soporta Android e iOS.  
 
-## Getting Started
+## ✨ Características  
+✅ Desarrollado en **Flutter** con **Dart**  
+✅ Estructura modular y organizada  
+✅ Uso de **Provider o Riverpod** para la gestión del estado  
+✅ Conexión con un backend PHP mediante **HTTP Requests**  
+✅ Soporte para **Android e iOS**  
+✅ **Pruebas unitarias** en `test/`  
+✅ Archivo `pubspec.yaml` bien estructurado para la gestión de dependencias  
 
-This project is a starting point for a Flutter application.
+## 📂 Estructura del Proyecto  
+```bash
+flutter-frontend-master/
+│── android/                   # Configuración y código nativo para Android
+│── ios/                       # Configuración y código nativo para iOS
+│── lib/                       # Código fuente principal en Dart
+│   ├── main.dart              # Punto de entrada de la aplicación
+│   ├── screens/               # Pantallas de la app
+│   ├── widgets/               # Componentes reutilizables
+│   ├── models/                # Definición de modelos de datos
+│   ├── services/              # Lógica para la conexión con el backend
+│── test/                      # Pruebas unitarias
+│── pubspec.yaml               # Configuración de paquetes y dependencias
+│── pubspec.lock               # Bloqueo de dependencias
+│── analysis_options.yaml      # Reglas de análisis de código
+│── .gitignore                 # Archivos a ignorar en Git
+│── README.md                  # Documentación del proyecto
+```
 
-A few resources to get you started if this is your first Flutter project:
+## ⚡ Instalación y Uso  
+### 1️⃣ Clonar el repositorio  
+```bash
+git clone https://github.com/tu-usuario/flutter-frontend.git
+cd flutter-frontend
+```
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+### 2️⃣ Instalar las dependencias  
+```bash
+flutter pub get
+```
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### 3️⃣ Ejecutar la aplicación  
+```bash
+flutter run
+```
+
+🔹 Para Android, asegúrate de tener un emulador o dispositivo físico conectado.  
+🔹 Para iOS, necesitas Xcode instalado en macOS.  
+
+## 🔥 Contribuciones  
+Las contribuciones son bienvenidas. Si encuentras un error o deseas mejorar la app, abre un **issue** o envía un **pull request**. 🚀  
